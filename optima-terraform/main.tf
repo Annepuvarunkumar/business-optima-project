@@ -4,5 +4,6 @@ module "vpc" {
   source             = "./modules/vpc"
   cidr_block         = "10.0.0.0/24"
   public_subnet_count = 2
+  private_subnet_count = 2
 }
 
