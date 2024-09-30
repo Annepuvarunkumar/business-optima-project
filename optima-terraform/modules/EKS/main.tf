@@ -25,7 +25,7 @@ data "aws_iam_policy_document" "eks_role" {
 
     principals {
       type        = "Service"
-      identifiers = ["eks.amazonaws.com"]           # No change needed
+      identifiers = ["eks.amazonaws.com"]
     }
   }
 }
